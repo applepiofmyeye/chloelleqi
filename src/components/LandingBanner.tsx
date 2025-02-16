@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import InstaIcon from "../../public/instagram.svg";
 import TiktokIcon from "../../public/tiktok.svg";
-import { lightLGC, regularMonomakh } from "../app/layout";
 
 export default function LandingBanner() {
   return (
@@ -17,10 +16,8 @@ export default function LandingBanner() {
       />
       <div className="flex flex-col justify-between h-[100%] space-y-24 w-1/2">
         <div className="text-center space-y-4">
-          <h1 className={`text-8xl ${regularMonomakh.className}`}>Chloe Lee</h1>
-          <h2
-            className={`${lightLGC.className} text-2xl font-bold text-center`}
-          >
+          <h1 className={`text-8xl`}>Chloe Lee</h1>
+          <h2 className={` text-2xl font-bold text-center`}>
             Dancer, Instructor, LASELLE 2025
           </h2>
         </div>
