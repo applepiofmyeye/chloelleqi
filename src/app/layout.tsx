@@ -3,10 +3,10 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { createContext } from "vm";
 
-export const lightLGC = localFont({
+const lightLGC = localFont({
   src: "../fonts/Louis George Cafe Light.ttf",
 });
-export const regularMonomakh = localFont({
+const regularMonomakh = localFont({
   src: "../fonts/Monomakh-Regular.ttf",
 });
 
