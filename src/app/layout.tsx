@@ -36,9 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${regularMonomakh.className} ${lightLGC.className} bg-[#8e5b36] antialiased`}
-      >
+      <body className={`${regularMonomakh.className} bg-[#8e5b36] antialiased`}>
         {children}
       </body>
     </html>
