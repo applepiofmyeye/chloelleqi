@@ -1,0 +1,15 @@
+/* Ensure images are not scaled by default */
+.image-container {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container.snap-center {
+    transform: scale(1);
+  }
+  
+  /* When an image is in the center of the viewport, scale it */
+  .image-container.snap-center:focus-within,
+  .image-container:active {
+    transform: scale(1.2);  /* Adjust the scale value to your preference */
+  }
+  
